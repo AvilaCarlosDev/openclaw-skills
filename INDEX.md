@@ -1,10 +1,16 @@
 # 📚 Índice de Skills - Documentación Completa
 
-> **Estado:** Mayo 2026 | **Total:** 22 skills | **Listos para GitHub:** ✅
+> **Estado:** Mayo 2026 | **Total:** 23 skills | **Listos para GitHub:** ✅
 
 ---
 
 ## ✅ Skills con Documentación Completa (22/22)
+
+### 🎨 Diseño y UI (1 skill)
+
+| # | Skill | Estado | README |
+|---|-------|--------|--------|
+| 23 | [`refero-styles`](./refero-styles/SKILL.md) | ✅ Nuevo | ✅ |
 
 ### 🔍 Búsqueda y Web (3)
 
@@ -64,8 +70,8 @@
 
 | Métrica | Valor |
 |---------|-------|
-| Total skills | 22 |
-| Skills nuevos (Matt Pocock) | 12 |
+| Total skills | 23 |
+| Skills nuevos (Matt Pocock + Refero) | 13 |
 | Skills existentes | 10 |
 | Con documentación completa | 22 (100%) |
 | Con README principal | ✅ |

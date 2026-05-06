@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://openclaw.ai)
-[![Total Skills](https://img.shields.io/badge/Skills-22-green)](#skills-disponibles)
+[![Total Skills](https://img.shields.io/badge/Skills-23-green)](#skills-disponibles)
 
 ---
 
@@ -40,7 +40,13 @@ Los skills se activan automáticamente cuando tu tarea coincide con su descripci
 
 ---
 
-## 📚 Skills Disponibles (22 total)
+## 📚 Skills Disponibles (23 total)
+
+### 🎨 Diseño y UI (1 skill)
+
+| Skill | Descripción | Cuándo Usar |
+|-------|-------------|-------------|
+| [`refero-styles`](./refero-styles/SKILL.md) | Extrae colores, tipografía, spacing y componentes de URLs | Cuando quieres analizar el diseño de un sitio web existente |
 
 ### 🔍 Búsqueda y Web (3 skills)
 

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "skills": {
+    "nextjs": {
+      "version": "1.1.2",
+      "installedAt": 1789663301145
+    },
+    "react": {
+      "version": "1.0.7",
+      "installedAt": 1789663308362
+    },
+    "sql": {
+      "version": "1.0.4",
+      "installedAt": 1789663317870
+    },
+    "git": {
+      "version": "1.0.12",
+      "installedAt": 1789663327837
+    },
+    "nginx": {
+      "version": "1.0.5",
+      "installedAt": 1789663336766
+    },
+    "devops": {
+      "version": "1.0.2",
+      "installedAt": 1789663345627
+    },
+    "terraform": {
+      "version": "1.0.4",
+      "installedAt": 1789663354850
+    },
+    "playwright": {
+      "version": "1.0.4",
+      "installedAt": 1789663364365
+    }
+  }
+}

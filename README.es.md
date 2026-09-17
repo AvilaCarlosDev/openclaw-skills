@@ -33,8 +33,8 @@ Publicadas en ClawHub por sus respectivos autores. Aqui solo estan seleccionadas
 | `seo` | Auditoria de sitio, redaccion y analisis de competencia | [SEO](https://clawic.com/skills/seo) |
 | `tdd-helper` | Ciclo red-green-refactor por vertical slice | [TDD Helper](https://clawic.com/skills/tdd-helper) |
 | `ai-meeting-notes` | Convierte notas de reunion en action items | [jeffjhunter.com](https://jeffjhunter.com) |
-| `meeting-notes` | Estructura notas de reunion | Publicada en ClawHub |
-| `safe-web` | Navegacion web con proteccion contra prompt injection | Publicada en ClawHub |
+| `meeting-notes` | Estructura notas de reunion | Publicada en ClawHub — autor no identificable, este slug lo comparten 3 autores distintos en ClawHub y no hay forma de confirmar de cual de los 3 viene esta copia |
+| `safe-web` | Navegacion web con proteccion contra prompt injection | [adamnaghs](https://clawhub.ai/adamnaghs/skills/safe-web) |
 
 ### Skills de lenguajes e infraestructura, de [ivangdavila](https://clawhub.ai/ivangdavila)
 

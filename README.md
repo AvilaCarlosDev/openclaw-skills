@@ -33,8 +33,8 @@ Published on ClawHub by their respective authors. Only selected and documented h
 | `seo` | Site audit, copywriting and competitor analysis | [SEO](https://clawic.com/skills/seo) |
 | `tdd-helper` | Red-green-refactor cycle by vertical slice | [TDD Helper](https://clawic.com/skills/tdd-helper) |
 | `ai-meeting-notes` | Turns meeting notes into action items | [jeffjhunter.com](https://jeffjhunter.com) |
-| `meeting-notes` | Structures meeting notes | Published on ClawHub |
-| `safe-web` | Web browsing with prompt-injection protection | Published on ClawHub |
+| `meeting-notes` | Structures meeting notes | Published on ClawHub — author not identifiable, this slug is shared by 3 different ClawHub authors and there's no way to confirm which one this copy came from |
+| `safe-web` | Web browsing with prompt-injection protection | [adamnaghs](https://clawhub.ai/adamnaghs/skills/safe-web) |
 
 ### Language and infrastructure skills, by [ivangdavila](https://clawhub.ai/ivangdavila)
 

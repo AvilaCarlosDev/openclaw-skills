@@ -1,0 +1,10 @@
+[extend]
+useDefault = true
+
+# procedencia.json guarda el SHA-256 de archivos públicos de terceros. Algunos se llaman
+# secrets.md o auth.md (guías de las skills), y la regla genérica confunde el hash con una
+# clave. La excepción es solo para esa regla y solo para ese archivo.
+[[allowlists]]
+description = "SHA-256 de archivos públicos en procedencia.json, no son claves"
+targetRules = ["generic-api-key"]
+paths = ['''^procedencia\.json$''']

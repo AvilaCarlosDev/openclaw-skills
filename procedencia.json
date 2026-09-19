@@ -1,0 +1,510 @@
+{
+  "version": 1,
+  "verificado": "2026-09-19",
+  "registro": "https://clawhub.ai",
+  "licencia_comunidad": {
+    "spdx": "MIT-0",
+    "fuente": "https://github.com/openclaw/clawhub/blob/main/docs/skill-format.md",
+    "nota": "ClawHub publica todas sus skills bajo MIT-0: se pueden usar, modificar y redistribuir, también con fines comerciales, sin exigir atribución."
+  },
+  "excluidos_del_hash": [
+    "_meta.json",
+    "<carpeta>/.clawhub/"
+  ],
+  "skills": [
+    {
+      "ruta": "ai-meeting-notes",
+      "tipo": "comunidad",
+      "autor": "jeffjhunter",
+      "slug": "ai-meeting-notes",
+      "version": "1.0.3",
+      "url": "https://clawhub.ai/jeffjhunter/skills/ai-meeting-notes",
+      "archivos": {
+        "SKILL.md": "21aca0db7f5e75d78951f6edb3c43f3d8366e72d4cf6d666ad3db1f419f79b9a",
+        "assets/PREFERENCES-template.md": "1d4bfcaa29f966b741abeb3c1fe36601ec81faabca3fa6d7d49c86198c3e0ee5",
+        "assets/TODO-template.md": "b4af7b6edfab92a8171b727dec99b5718a5870cef8e55aa7d3633b51beeb23ae",
+        "examples/input-messy-notes.md": "72ef0edb9b014dcf9192ef20233de2dd3893ea2fcccad1df7b63d271d8a9d97d",
+        "examples/input-transcript.md": "21a22eebd350b283ddc8cad7ec45f0b45c5b387fccb0627550ba08d49628e881",
+        "examples/output-example.md": "f70517e1b997ee6c0953408522b46b3747f78ca15dbacb7838e2c18bea5dc374"
+      }
+    },
+    {
+      "ruta": "arch-improver",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · improve-codebase-architecture",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/improve-codebase-architecture",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "chat-to-prd",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · to-spec",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/to-spec",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "code-context",
+      "tipo": "propia"
+    },
+    {
+      "ruta": "compressed-mode",
+      "tipo": "propia"
+    },
+    {
+      "ruta": "content-marketing",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "content-marketing",
+      "version": "1.0.0",
+      "url": "https://clawhub.ai/ivangdavila/skills/content-marketing",
+      "archivos": {
+        "SKILL.md": "b11c10e07713ad2d81f34a528ee34af9acba364fa3f2f033a802bdbc24c3adcd",
+        "funnels.md": "20b9dc5e7537869e5f4361a352b6042148da14af7786a34d868a326a782c6996",
+        "memory-template.md": "05a0772d1f20f18d7d10bd44781c2118eab1462a05a8bfd0aeaaa9070cc85d35",
+        "repurposing.md": "27e355d65a0af953671a1e479ab7c630a8591145930b831646555cbc92ebe1f2",
+        "setup.md": "86b60c23f2b83ca52d7550ebdeb3cb4b360c9cece951557f2704d194c7b861a1"
+      }
+    },
+    {
+      "ruta": "cybersecurity",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "cybersecurity",
+      "version": "1.0.0",
+      "url": "https://clawhub.ai/ivangdavila/skills/cybersecurity",
+      "archivos": {
+        "SKILL.md": "a1fbab25c69772b46d34eac05e8a84ce04c7aee9eb7b599a017cefd89c43afc2",
+        "memory-template.md": "9ce975d0c9f99632ff3df510f0afe67f0e76017abeff5148a70c2556e18f5ac4",
+        "reporting.md": "5ea2e4608bc2d8f8b48addb7c6530fc0f2ae98ffece9fba7687e2608071c1314",
+        "safety-boundaries.md": "24f054473f635964d5fbf3557c04977eb06ccb064a8095c9fd9bcf4ed8ac6f43",
+        "setup.md": "8a5668bb362ccf2d35037386f05b074c15c72796dc3517afbcd461121613ff57",
+        "threat-modeling.md": "816833f003504528b96f2de30ed162db7942f3759a5848d3c4376212cc92a828",
+        "triage.md": "b4122c2ad66eee68168fe62e61c537ba249f75627369b1482fd3e12545118e30"
+      }
+    },
+    {
+      "ruta": "debug-diagnose",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · diagnosing-bugs",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/diagnosing-bugs",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "devops",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "devops",
+      "version": "1.0.2",
+      "url": "https://clawhub.ai/ivangdavila/skills/devops",
+      "archivos": {
+        "SKILL.md": "6a4974ba499218e990ba1b517861d03eb9607d9a35a8a185bb80cf48a8a2be30",
+        "capacity.md": "ea9f0576deec957a78351256d1e28610581b7a9709704443769f06c31e3551b9",
+        "deploys.md": "3fcb479f65733435d9e10370cfc2e959dc6fd1109c0b7b8d0fa3a40271d44e74",
+        "environments.md": "54ae422d04fbee8e996ee43be381e1456e4d198af40b45e0a7f1162f1b026785",
+        "gitops.md": "ec28b8f5f697badfd7bcf43498e04bd43a9dc8e12d026dae306de375bb5f3654",
+        "iac-workflow.md": "33a1b2c7c57820404b47f484b82b15aa6210568c7f9f79a253b4f4b089b377eb",
+        "incidents.md": "9fac652e3a3663c26ff7da1e0df9dbb4edf7faf90d88f11174ba70d38176c9b8",
+        "memory-template.md": "860ed699846bbe12c466dba3638bae95f0bf0bacf1c284acc4b253de42481a43",
+        "migrations.md": "16a96473c42bd8d0bbe0648db2dd59bff4cae4c2a9e2c5e16851b9a2a3b6bfbd",
+        "observability.md": "ed856f37e0a078246bfe69307dcbb7205195b9202c1f4e0dab29fa171f80e3ae",
+        "pipelines.md": "2258f478e235c31b74e2e374402596b2556f722d61d0bd40292de46de2842857",
+        "platform.md": "e03f2376c9c32ec5314a0892022e324937e1897dc90a0783e048edb3f3d62816",
+        "recovery.md": "fa4dfc6a3787f8c8896817cae2b65fa339f2da1049ba4cf7d77f075b29790cf7",
+        "secrets.md": "655b670e2a764042fc92a91759342d822ed17535fa781db505d75ac218b41473",
+        "skill-card.md": "560710714d0cd968b6d8599ece0ad15606e19e31a3c6a7f4e76eac2e65c21025",
+        "slos.md": "6050fc394425fa637a92d0299292db697fe6bc417c2b61644046a3701521f650",
+        "supply-chain.md": "78b5927986364e454427f7291fdcd801783841ffcea13e0256b3fe464f4629a7"
+      }
+    },
+    {
+      "ruta": "git",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "git",
+      "version": "1.0.12",
+      "url": "https://clawhub.ai/ivangdavila/skills/git",
+      "archivos": {
+        "SKILL.md": "8e83d3beaf251a167f7cfecff0efb4c7bb3cedec993aa81875bdb5e512406256",
+        "branching.md": "2d809b9aa68837c9ebfd82c9396ae00bde7d36076fe9132072425f306ddfddf0",
+        "collaboration.md": "e8615b554358ce81dc562298a5e4007d25719a85384fbf85dd28a8207ef056e3",
+        "commands.md": "5806fd5f4d33b518b121dbb1da27800611a72f7d2ffa2d6e5635b5ad5710e42a",
+        "commits.md": "adb74f80aa1a77a4619a86530de5eb3b4fe66f256612e31067758b051130f60f",
+        "config.md": "a4596a41b1b08742ec6e295b48c282bd183a3b16872e42ea6f4ee4c6b77e41b9",
+        "conflicts.md": "858fdfccecea67f93b096ea1106a086173d173edd77f6305bb9ee50cfe9af6fc",
+        "errors.md": "a0c7af3e9d11669304d3f9f6ac2592e8af5961b70edbea03f4c60f21a2cb9439",
+        "forensics.md": "e78db2b8057399a0c389da698657d6f7e0d4fb930bbf39220acb5cdae0b514c5",
+        "history.md": "a6f59cd11e040b72aa816fc62cb57fdf4b5282fb52c87dca43f56e5e80c418e6",
+        "hooks.md": "8e9923bc424e7513f841ee87b01142ec9df5753db19596d1f1b29be659e230d2",
+        "large-repos.md": "ebb2afe73bcad8a244df6254fb7dae9e2feac2f6a8be0927d40efa9deb1b0274",
+        "memory-template.md": "0407b4308ebe115f6fba7f32cc10724b2050bc7701bd43b726a79781e8594971",
+        "recovery.md": "dc176b035a00a591118bf016a563bce594c80cb8502176d66769f91f3b0ff173",
+        "releases.md": "2fd2f7ab51faa04a3ef8edaa656ea3e87ca461e431d6e9484a260738a8041825",
+        "remotes.md": "ff69422a748208995742f90b8fdbde25fac44f25026ca3809e04b289ff02991f",
+        "scripting.md": "e687c2f5be8f8384b86fc452db80c8b4d0fea0d30b67e9704eaccb3c7a697b0b",
+        "secrets.md": "0aaf9c34fa4294c34bdfb482ecc44e9f17246c7da5cce0496dae71f99d3c6572",
+        "setup.md": "013513773b1dd445f77570d09109e3700add40586adab5ea4b878c255d39c4d0",
+        "skill-card.md": "577c204d54a044efb4241970e369f6b2fd408749495a732977ce37f37367cc9d",
+        "submodules.md": "62874f3beafdfe4975820068e02d3ff7fb99aaa7488c8515976f74544adf9ca3",
+        "worktrees.md": "87ec5ff7b7de54a683af3477a8ff61705eea1908de82dcd9a98d58d8827516c0"
+      }
+    },
+    {
+      "ruta": "git-guardrails",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · git-guardrails-claude-code",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/misc/git-guardrails-claude-code",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "graphic-design",
+      "tipo": "derivada",
+      "autor": "ivangdavila",
+      "slug": "graphic-design",
+      "version": "1.0.0",
+      "url": "https://clawhub.ai/ivangdavila/skills/graphic-design",
+      "modificados": [
+        "SKILL.md"
+      ],
+      "nota": "Reescrita como v2.0.0 con las capacidades de Claude Design.",
+      "archivos": {
+        "SKILL.md": "b8e7a9637e303204561fd9810a04c28b0d767f7cad89dd3c91cd30f5ae8a5915"
+      }
+    },
+    {
+      "ruta": "grill-me",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · grill-me",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "grill-with-docs",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · grill-with-docs",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "issue-triage",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · triage",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/triage",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "meeting-notes",
+      "tipo": "comunidad",
+      "autor": "tinadu-ai",
+      "slug": "meeting-notes",
+      "version": "1.0.1",
+      "url": "https://clawhub.ai/tinadu-ai/skills/meeting-notes",
+      "archivos": {
+        "SKILL.md": "97839b43691c224dddeed692a16ef1cd7917829be600afa855a822cd18e11f52"
+      }
+    },
+    {
+      "ruta": "nextjs",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "nextjs",
+      "version": "1.1.2",
+      "url": "https://clawhub.ai/ivangdavila/skills/nextjs",
+      "archivos": {
+        "SKILL.md": "5bead914cfc2ef6a6a76512ce5ef0737c22d1b4ce813858d929188e9296a28a5",
+        "auth.md": "892cc26b1c656cf3d16dfc07c27c649a464a9da578b27cda6c3e0c5a7f6c429c",
+        "caching.md": "8f129945505258a37939300404d9dc41fe04d8b3ef1753873cdf5f97bb065d99",
+        "data-fetching.md": "59b9e296007bc05d42474bf3fee3579a90a42bc37d185e1e76871b4d35f8c523",
+        "deployment.md": "ff8f60fcb1046be93892667f1cc5fdb3932a219453bf38aa6286d42f4faa4418",
+        "memory-template.md": "28b38bb204073f6f88fcd4bda46c15e3821d04f4561e56902589eb489ee9d430",
+        "routing.md": "1d0b92a8322bc4ab30ac6794d5b3b9a6dfa1f1fedae78a1727e5f8594da8b21a",
+        "setup.md": "1b6343a4f014153d7b44ea13636ab6120fa5636fddbb9ee7fac707454bcd9876",
+        "skill-card.md": "71fa12f6d56cb128c066af3fb4c51033ede3c5ece2eac104a4b1d53c845a5a09"
+      }
+    },
+    {
+      "ruta": "nginx",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "nginx",
+      "version": "1.0.5",
+      "url": "https://clawhub.ai/ivangdavila/skills/nginx",
+      "archivos": {
+        "SKILL.md": "57f0c7e04326c054a3bc3208e97e439c829c464d3238fcd18eafb4913096a48c",
+        "containers.md": "e1dbb87f0820a4a0008a6a071145cc1e22a1cbe3d85347bca95d6c856dbd1a8c",
+        "debug.md": "121015f0ee39d2ebf1f9e9f6ffdff54b024899feddc5875d3aa860e94a5cf235",
+        "fastcgi.md": "797aa538bf6e4cdf73611dba6c24034bd69b652afcd94050fc140ee646412f9c",
+        "memory-template.md": "f0461502d546c763829076b9975d4b069e61f55ad2c9372e75187104a94be649",
+        "operations.md": "a2d414e79175727ac8585b2ff4225fd60c0bda419eb8428b73a978d7a379a598",
+        "performance.md": "89d72163466edfab0fdde548cfca2ec4660869e4e304a7dbd303842776a63c51",
+        "proxy.md": "425363984fa8084b39d01bc414329109cc28933d7feae4daf33c71565af57de1",
+        "redirects.md": "efe0b4b8bef5cef12864dc15dc13e941ddddf1200c113e68ed75429c465f8f0e",
+        "security.md": "2c9fc8707fcc8e515e5a339ba8ffe849c647f715ebb551b92331369bb0f94c12",
+        "semantics.md": "3d72c391d34bd05a0412d59f0fde237e9d16af32a01e21128b499f25b9c836e0",
+        "setup.md": "624923b5e2d79b6d4ab3c749fe42ea69facf9bc2498688a99c623a6714af692d",
+        "skill-card.md": "3a76f13cb64fccea5255c0cbf8c23d6ac98279c9312418e23347b59f6df2d996",
+        "ssl.md": "ce577c1edbfe88c95aba7fbe13a4a8cc9d487e4390bca989aee611d8fcc07cb1",
+        "stream.md": "158ad2e63f7f5c4ded7b1dbfa04535c69adf986134ec495782b60756e83fdfd8"
+      }
+    },
+    {
+      "ruta": "plan-to-issues",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · to-tickets",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/to-tickets",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "playwright",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "playwright",
+      "version": "1.0.4",
+      "url": "https://clawhub.ai/ivangdavila/skills/playwright",
+      "archivos": {
+        "SKILL.md": "7fc651f770d1ab18e1b48dac66ac58d456896d455846bb649fc635182aaac6a4",
+        "accessibility.md": "dec333192ba06b28f5f190c2f0bc9f9b939d30d2121f181d783d360a5b8eceaf",
+        "auth.md": "2d2e82eabe7a712045cc81f205f20e9049974f27a5ef4b342fc1c2abdd929f86",
+        "browsers.md": "d0eec11c6868894adf97f23b672cac70c5081dbc051afccbf9b67c65e9fbb2f1",
+        "ci-cd.md": "353bfb0150199f4204d18c724e984f75fbbe913c548d28fcbd86baeba0182698",
+        "commands.md": "2e33f0654716126e49fa86cf8236955858b8964afd177bedb94039f78959af9b",
+        "config.md": "f66d7202a4399d052db9dfbfe5351ca78d8e6185cb5ea55c0e831869e4cf31f8",
+        "contexts.md": "4d62f9993e7d7000ad37e684b550d378b063dbf06a91b6cdd15a4f9801eec1f3",
+        "debugging.md": "c5468b84cffac75ae9a6e2a0a2e0e1ab1b015fbbdcd188b90222603ddd7d9488",
+        "files.md": "2b927576168f682f01d11767a84cb264b60749eecc4449fb62c37bf1a7128980",
+        "fixtures.md": "0e3341960a479e359aff6ee3d11cb6228f905f2f331ed0a5450b4e08cd91aa8e",
+        "flake.md": "b66e3dbfbe78b22ad4c2ecf0617b4f1db9a7570296c17f109511792bfd8bc468",
+        "mcp.md": "4d09b3957ddee40ce513745d5d61c3639996c0eacfb699b1e6c37ef73a350e02",
+        "migration.md": "068b997f3beb3b45fa8232ef96b3cbe01c35065f539fe7aaad0dda00555c425d",
+        "network.md": "245b4447d9ca4f66ac337364f5bc146bb450811400aba1c4b20b397ebfb7f68f",
+        "performance.md": "324bece78ebf37de6d2bfd09cab3d95f67319eba98813054cebee973a71e240d",
+        "scraping.md": "22959500f803ccdbb24a060acd5ec45aaa5bdc8ac43ca1e018e509e7c5e92d99",
+        "selectors.md": "ff9ce4a3e2f46be073e68b0cbc0d8dddcc1ddeb7a2ed1332e863acab35c561e9",
+        "setup.md": "c827d9e6c5de5003456020528fff368017f1dd8f5ba2e1f685a253296cf7a412",
+        "skill-card.md": "eca271eb3a507249f0f83206ce39b76142f4a8f506598979fbc36e217af10522",
+        "testing.md": "43881fbcb41601556d396ab1accc0217036c5d09d5770d9b4140852d72ce88d2",
+        "visual.md": "3c2770a72c2a22fb08c4a01afc73847e127eced227a782c867067d42d2dc7ce1",
+        "waiting.md": "31c46870d6aa11d1cdc6a462d753950692ad979fca98273e96c4ade03f50df1d"
+      }
+    },
+    {
+      "ruta": "programming",
+      "tipo": "derivada",
+      "autor": "leowing",
+      "slug": "programming",
+      "version": "1.0.0",
+      "url": "https://clawhub.ai/leowing/skills/programming",
+      "modificados": [
+        "SKILL.md"
+      ],
+      "nota": "SKILL.md reescrito en español; el resto de los archivos son los originales.",
+      "archivos": {
+        "SKILL.md": "48e6aa18455d1570b878ae8f2fbffd7c6982f58da250992c4f7cc0121ce0a40f",
+        "claude_cli_guide.md": "bed2651553a38f87def1b6a3a6e6beda641a0c24dc1e1e0ac11d57dddd8e150e",
+        "code_review_optimization.md": "3d804ed1c06c2c4e897bc94da169b27859471a9c176e1306461f36dee2839dfa",
+        "config.json": "92e79479caa66be50660510985d5ae46dedcb387404175da40beb47f3682e2fc",
+        "skill.sh": "bebe3d44e3c258dee79bedf274d950ecd3ec4200eb4c56ff6063f324d473cc1a",
+        "workflow_guide.md": "87e3dea99efcc90a2638e927e3fb0ded3467dd579a0c1f5da6e9275337c3a002"
+      }
+    },
+    {
+      "ruta": "quick-prototype",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · prototype",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/prototype",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "react",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "react",
+      "version": "1.0.7",
+      "url": "https://clawhub.ai/ivangdavila/skills/react",
+      "archivos": {
+        "SKILL.md": "3c87b5125d26d537cdd840cc77d8dd0ef14b0a5b47d564985f13bc40f3c9a2bf",
+        "memory-template.md": "36b1f14f67edfe6bf0a90a3f4b6565daf2997358e5adbcade104254fab7c7981",
+        "setup.md": "989b89d7f623327971bcf6c5f571d8457aefe2c5e3547c3fbc814e80460aa08e",
+        "skill-card.md": "71bc719206a3e69af7bf7454281cf1da177c3eb2b09fb5f6a96603c9d5c8302c"
+      }
+    },
+    {
+      "ruta": "refero-styles",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "Refero Styles",
+        "url": "https://refero.design",
+        "licencia": "sin texto copiado"
+      }
+    },
+    {
+      "ruta": "safe-web",
+      "tipo": "comunidad",
+      "autor": "adamnaghs",
+      "slug": "safe-web",
+      "version": "1.0.8",
+      "url": "https://clawhub.ai/adamnaghs/skills/safe-web",
+      "archivos": {
+        "README.md": "ecfdc3eb439827715b87ab847fe4380fb4fd5e1869ff40c43c3e80318eff693f",
+        "SKILL.md": "5482831bda532f74238561812eef81dd03a7d5a4e876f4af092a1d1793074b60",
+        "scripts/safe-web.py": "3375507e13f2267feee34d080376e6d9a454aa2090d3613de130bff0c83a236e",
+        "skill.json": "0b62b905d9d8bbfa4da0ff9035dabc3d35820aa01877cb6b1a27996ae45a7c5d"
+      }
+    },
+    {
+      "ruta": "safe_fetch",
+      "tipo": "propia"
+    },
+    {
+      "ruta": "safe_search",
+      "tipo": "propia"
+    },
+    {
+      "ruta": "seo",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "seo",
+      "version": "1.0.3",
+      "url": "https://clawhub.ai/ivangdavila/skills/seo",
+      "archivos": {
+        "SKILL.md": "7bc03035be9fee15d6aed88e69051c4e6d1c657df643e806d37571921ccf0bcf",
+        "content.md": "e4fbac594294f7ca8a414ee95563bee77adf8c31a422388f5d01f608e4104daf",
+        "keywords.md": "ff6c741218936100e8e5e636c6323b058a465c56ff0f403b5b760c78b69a19b8",
+        "links.md": "58c57399c565ab61b19ca4b57975b6cadc32cbc809dfcf9e8983af9199cf8e22",
+        "local.md": "7bbc5720ce8e66fd6a07bf1cd5c89ffdfd6d433efbfdc61ae30114b623f3e0c1",
+        "memory-template.md": "da5e78f92d6a8deadbae133390861a2ad69442b4e2cc566357c6b1f1c4dbf423",
+        "on-page.md": "f596addf5155d5fb9daf16a063704920ad2a61423af369dc3f5fa1c39890a42c",
+        "schema.md": "7147dc4dcc1a526f0a303fa35f0e7c79f9ec72bfeba75ab4dea82947f4d0cff1",
+        "setup.md": "72f5c0e84190f47e08fb2471570b8e6e3e574e20e7809f15e6a05c25a31a49e6",
+        "technical.md": "b7342ca817ed61b06f3164b3ceef0833473c4e45b117e7c71f87e01f574b06ec"
+      }
+    },
+    {
+      "ruta": "skills-es/engineering/diagnostico",
+      "tipo": "propia"
+    },
+    {
+      "ruta": "skills-es/engineering/tdd",
+      "tipo": "propia"
+    },
+    {
+      "ruta": "skills-es/github/contribucion",
+      "tipo": "propia"
+    },
+    {
+      "ruta": "skills-es/landings/diseno-profesional",
+      "tipo": "propia"
+    },
+    {
+      "ruta": "skills-es/ventas/pitch",
+      "tipo": "propia"
+    },
+    {
+      "ruta": "sql",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "sql",
+      "version": "1.0.4",
+      "url": "https://clawhub.ai/ivangdavila/skills/sql",
+      "archivos": {
+        "SKILL.md": "0e2eacad802a1757d9d4cd949e3191c714015d8c5617655259626b8e3e55eda5",
+        "analytics.md": "4edbaf8ab58eb167c7bb4d9e8564b9ebad1f6bae4dcebdf503d25d18e44b1ce6",
+        "data-loading.md": "1b62e0ca28c524b445fb9265bf6b2e99b3860721e24f47cd541ae216fd6e6b0b",
+        "datetime.md": "bd643df4fcfc4940c7be85a6254ef2efc48c0d9c8b72bc31383ff4a323bfa5d9",
+        "debug.md": "7708d77cc0f070c3d23495c29d6a4ee21594ceef54a04c7cac910c1e53e6d812",
+        "dialects.md": "2b6d26477126dfbb99300427fc0523f3bdc2d8aed59f33df0b50e804b29728ea",
+        "json.md": "7cab974e51516987ff77ac3e8c832918c79ff47ce478cbe5a5d50aa500c2eb73",
+        "memory-template.md": "3c779610ff0754e1eabd14274fa9a65c35fe90e970f76f09ff0d6138298b6ba6",
+        "modeling.md": "56013e66d57f3306485fa6476a07c9de828f98bdc33901b28255a57f35680a32",
+        "operations.md": "5f0df1c3c60b0a6d53540600941cb8df4ab96aca59da9df0b74eaaf73e3d6400",
+        "orm.md": "538c9105081212a664ea165fbccbd71beeb22a4a0806f91540a9480f2812797d",
+        "patterns.md": "036f508c7e48707d089c0d75eaef709936f4f11dad8b7da8e0fde41fc44be397",
+        "performance.md": "74f48bdee26eef06dbffa244884c9820b86d4726c73b1a6e1c5e072233663d0a",
+        "scaling.md": "9140aa56fc1bc397a7d826bec055e4930b5349ab8817a17a6f27f0c1b2909377",
+        "schemas.md": "a895730ea30482db86543a0ba0a4ca0a150d86d43df7a3433876db6eb98974e0",
+        "security.md": "2e8afd2fc874b35100050c56743afed67300d214f9a11472771506de462a95e8",
+        "setup.md": "277023416cbd67cc8ae5363ed8126f539fab1a89c82f0ce31aae1517d7eeca12",
+        "skill-card.md": "bffb943a84f270551341aee592a7953f7be9dbc03a814a2d67c3d16dcfe2fce1",
+        "testing.md": "90e3b8ad6d3a4bfaf6206992ef1f1f6b8884dc72bb42fa42c503af5dafa6a5bf",
+        "transactions.md": "d758e47ffc10aca6ae3c235281cfa9a0ac0fb1403fd310f3bc29853072dcc874"
+      }
+    },
+    {
+      "ruta": "tdd-helper",
+      "tipo": "propia",
+      "inspirada_en": {
+        "nombre": "mattpocock/skills · tdd",
+        "url": "https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd",
+        "licencia": "MIT"
+      }
+    },
+    {
+      "ruta": "terraform",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "terraform",
+      "version": "1.0.4",
+      "url": "https://clawhub.ai/ivangdavila/skills/terraform",
+      "archivos": {
+        "SKILL.md": "9d58f88d634515f9dd9ecdfa3a30b475f3e5cf764ae72b8635d1cbed4fc0962b",
+        "ci.md": "8d3335e5496f57c192864c935eafbc63e0fb77814c458b6605e6ac7265505d37",
+        "commands.md": "11fc9dda49dbd9fa22da04abe87f4aac17c0ccae70ae2bdc312fc489171ba611",
+        "debug.md": "10e07f98de57052ade964fa33593e4e0d7fe3b6ba72dd7003e023d85c7765862",
+        "expressions.md": "857aba70e3f088c276ada2ace31deb46e781a8004a133445bb67f2f033cee7c9",
+        "lifecycle.md": "8481618f9e3e5aafce93b5dfb6dc8afb364dfed0f2df7e3535ee7e2560a7f49b",
+        "memory-template.md": "dfea346865f2da36afb1b5c7a480d3e870a3525c29a1ef9d1fdf92ae26896201",
+        "modules.md": "66ed859a0af9b2eb8462deaaacfbbd827925e03f05cc13c49c86fc3967c2bd74",
+        "performance.md": "2d9d030fe202e21774da414514ed6a94cd7f9b152dda06062513af8cfd86ef55",
+        "providers.md": "471c1d48c96918c14551215dcb5362b085cd8c78857b800a9e6386be46919e6a",
+        "recovery.md": "dc7dbdd0fc7d11b4a155ade35ecdcee44582132b5a9bde5e87b12df71e0e7b21",
+        "refactoring.md": "c15768d1baab6b67dedd00ae57bef8e566375b316cd8a1327cc177d9afc250de",
+        "secrets.md": "aff20627ca8be4e805996f39408aad4031b823b49d70323c60fbabf79a6e5a80",
+        "setup.md": "15b02d8cd930054fcc5b7b1278864be80081bc00b7269b903f6709b4a7419caa",
+        "skill-card.md": "f7ee31caa39d40ee2ef4977b24d9574120e4967ca6a17346f8fd2dd33485f25e",
+        "state.md": "c7ff03bf41a75ad4f976e85c6dd7d60aec19d1c93645a50e0debb15c542fc15f",
+        "testing.md": "2273710dc35298375da6bb00c0b9e7d165857c0f6644b38ed7cdf7e088b7f347",
+        "upgrades.md": "93eb22a19dce4217d0f8a6babbf83815ad5b6f9beb97d08d4c6a3c1ded2dcd2f"
+      }
+    },
+    {
+      "ruta": "typescript",
+      "tipo": "comunidad",
+      "autor": "ivangdavila",
+      "slug": "typescript",
+      "version": "1.0.5",
+      "url": "https://clawhub.ai/ivangdavila/skills/typescript",
+      "archivos": {
+        "SKILL.md": "934ddd98974a98490b9be66532942bec6d15f85a73b2c79dc752e2919d48d924",
+        "boundaries.md": "3a8ae169e453110cb94744f1ae7b45214b417484fb9533fbde0f1c141b95dcae",
+        "declarations.md": "5b811a5fc3b2ca4df4352fc314f83324db0896558f1fe88c4e6abdb3547d8a2f",
+        "errors.md": "f556dd8268035ee06a56df385a59341435d6a0654f302d811f99193a6515a105",
+        "generics.md": "6c7b8f5445c225ad0ba350a3d742ea71aa4f3a7ff86e39ff23dda15e424c4e24",
+        "memory-template.md": "365be59b6da85accbebe9bcd016435f550ad59856c966edc0f2693a83d09993b",
+        "migration.md": "c9b739f903d313f00b83bfa2cdc5c5667b84578dddd7cd2f0d0f55133cb87f3d",
+        "modules.md": "80523f21a137cec0898e9ca6c46373b568e7a77f8d31bf042f32a6409d0a4b40",
+        "performance.md": "69c13c93d9ad6b65ff875ab4cd5d5d898cc8c940823c2b748243ea23b77e4834",
+        "setup.md": "d29847b97c7347b7abe42f334b11756d31b1979fca8d1e6e8e0dfedd44e58341",
+        "skill-card.md": "35a8d708907bd15cd2615a263914c119886b3076bd9d8696dbf6fb3a3fc93700",
+        "tsconfig.md": "9ad265b4b6d49f53177944860f90d0c20a1485ff8c1c2461734af1cb6c191ea7",
+        "utility-types.md": "4e83506860f72366a7e5f3da8ace54a81d661e59a642e6437c9d009268f97930"
+      }
+    }
+  ]
+}

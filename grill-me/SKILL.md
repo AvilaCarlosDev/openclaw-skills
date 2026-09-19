@@ -2,7 +2,7 @@
 name: Grill Me
 slug: grill-me
 version: 1.0.0
-homepage: https://clawic.com/skills/grill-me
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/grill-me
 description: "Entrevista implacable sobre un plan o diseño hasta que cada rama de decisión esté resuelta. Sin documentación, puro cuestionamiento."
 changelog: "Skill inicial para cuestionamiento de planes en OpenClaw."
 metadata: {"clawdbot":{"emoji":"🔥","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/grill-me/"]}}

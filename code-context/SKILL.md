@@ -2,7 +2,7 @@
 name: Code Context
 slug: code-context
 version: 1.0.0
-homepage: https://clawic.com/skills/code-context
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/code-context
 description: "Haz zoom out y entiende código desconocido en el contexto del sistema completo antes de modificarlo."
 changelog: "Skill inicial para comprensión de código en OpenClaw."
 metadata: {"clawdbot":{"emoji":"🔭","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/code-context/"]}}

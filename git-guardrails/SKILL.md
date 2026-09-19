@@ -2,7 +2,7 @@
 name: Git Guardrails
 slug: git-guardrails
 version: 1.0.0
-homepage: https://clawic.com/skills/git-guardrails
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/git-guardrails
 description: "Hooks y guardrails para bloquear comandos git peligrosos (push --force, reset --hard, clean) antes de que ejecuten."
 changelog: "Skill inicial para protección de git en OpenClaw."
 metadata: {"clawdbot":{"emoji":"🛡️","requires":{"bins":["git"]},"os":["linux","darwin","win32"],"configPaths":["~/git-guardrails/"]}}

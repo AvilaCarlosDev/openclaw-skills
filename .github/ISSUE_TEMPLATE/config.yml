@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Skill con instrucciones o scripts peligrosos, o clave expuesta / Dangerous skill or exposed key
+    url: https://github.com/AvilaCarlosDev/openclaw-skills/security/advisories/new
+    about: Reporta de forma privada, no en un issue público / Report privately, not in a public issue.

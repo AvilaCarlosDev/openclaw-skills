@@ -2,7 +2,7 @@
 name: Compressed Mode
 slug: compressed-mode
 version: 1.0.0
-homepage: https://clawic.com/skills/compressed-mode
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/compressed-mode
 description: "Modo de comunicación ultra-comprimido. Reduce ~75% de tokens manteniendo precisión técnica. Sin relleno, directo al grano."
 changelog: "Skill inicial para comunicación eficiente en OpenClaw."
 metadata: {"clawdbot":{"emoji":"📟","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/compressed-mode/"]}}

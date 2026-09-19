@@ -2,7 +2,7 @@
 name: Grill With Docs
 slug: grill-with-docs
 version: 1.0.0
-homepage: https://clawic.com/skills/grill-with-docs
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/grill-with-docs
 description: "Sesión de preguntas implacables que desafía tu plan contra el modelo de dominio, actualiza CONTEXT.md y ADRs antes de codificar."
 changelog: "Skill inicial para alineación de requisitos y documentación de decisiones."
 metadata: {"clawdbot":{"emoji":"🔥","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/grill-with-docs/"]}}

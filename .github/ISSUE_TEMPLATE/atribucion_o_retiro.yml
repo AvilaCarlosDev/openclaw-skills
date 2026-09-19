@@ -1,0 +1,27 @@
+name: Atribución incorrecta o retiro de una skill / Wrong attribution or removal request
+description: Una skill está acreditada a quien no es, o su autor quiere que se quite o se acredite distinto / A skill is credited to the wrong person, or its author wants it removed or credited differently
+labels: [procedencia]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill afectada / Affected skill
+    validations:
+      required: true
+  - type: dropdown
+    id: pedido
+    attributes:
+      label: Qué se pide / What is requested
+      options:
+        - Corregir el autor o el crédito / Fix the author or credit
+        - Quitar la skill / Remove the skill
+        - Otra cosa / Something else
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidencia / Evidence
+      description: Enlace a la publicación original o a la prueba de autoría / Link to the original publication or proof of authorship.
+    validations:
+      required: true

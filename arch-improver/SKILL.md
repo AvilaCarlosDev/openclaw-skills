@@ -2,7 +2,7 @@
 name: Architecture Improver
 slug: arch-improver
 version: 1.0.0
-homepage: https://clawic.com/skills/arch-improver
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/arch-improver
 description: "Encuentra oportunidades de mejora en la arquitectura del codebase: acoplamientos, violaciones de capas, deuda técnica."
 changelog: "Skill inicial para análisis y mejora de arquitectura en OpenClaw."
 metadata: {"clawdbot":{"emoji":"🏗️","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/arch-improver/"]}}

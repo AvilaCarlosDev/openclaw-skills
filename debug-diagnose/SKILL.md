@@ -2,7 +2,7 @@
 name: Debug Diagnose
 slug: debug-diagnose
 version: 1.0.0
-homepage: https://clawic.com/skills/debug-diagnose
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/debug-diagnose
 description: "Loop disciplinado para diagnosticar bugs difíciles: reproducir → minimizar → hipotetizar → instrumentar → fijar → test de regresión."
 changelog: "Skill inicial para diagnóstico sistemático de bugs en OpenClaw."
 metadata: {"clawdbot":{"emoji":"🐛","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/debug-diagnose/"]}}

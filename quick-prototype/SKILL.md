@@ -2,7 +2,7 @@
 name: Quick Prototype
 slug: quick-prototype
 version: 1.0.0
-homepage: https://clawic.com/skills/quick-prototype
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/quick-prototype
 description: "Build de prototipos desechables para explorar diseño: apps de terminal para lógica, UIs múltiples para diseño visual."
 changelog: "Skill inicial para prototipado rápido en OpenClaw."
 metadata: {"clawdbot":{"emoji":"🚀","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/quick-prototype/"]}}

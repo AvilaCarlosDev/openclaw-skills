@@ -2,7 +2,7 @@
 name: Programming
 slug: programming
 version: 1.0.0
-homepage: https://clawic.com/skills/programming
+homepage: https://clawhub.ai/leowing/skills/programming
 description: "Skill general de programación para desarrollo, debugging, code review y arquitectura de software."
 changelog: "Skill inicial de programación para OpenClaw."
 metadata: {"clawdbot":{"emoji":"💻","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/programming/"]}}

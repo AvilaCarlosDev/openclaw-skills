@@ -2,7 +2,7 @@
 name: Issue Triage
 slug: issue-triage
 version: 1.0.0
-homepage: https://clawic.com/skills/issue-triage
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/issue-triage
 description: "Triage de issues mediante máquina de estados con roles de triage, labels y routing automático."
 changelog: "Skill inicial para gestión sistemática de issues en OpenClaw."
 metadata: {"clawdbot":{"emoji":"📋","requires":{"bins":["gh"]},"os":["linux","darwin","win32"],"configPaths":["~/issue-triage/"]}}

@@ -2,7 +2,7 @@
 name: Chat to PRD
 slug: chat-to-prd
 version: 1.0.0
-homepage: https://clawic.com/skills/chat-to-prd
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/chat-to-prd
 description: "Sintetiza la conversación actual en un PRD y lo envía como GitHub issue. Sin entrevista, solo sintetiza lo discutido."
 changelog: "Skill inicial para convertir conversaciones en PRDs ejecutables."
 metadata: {"clawdbot":{"emoji":"📄","requires":{"bins":["gh"]},"os":["linux","darwin","win32"],"configPaths":["~/chat-to-prd/"]}}

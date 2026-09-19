@@ -2,7 +2,7 @@
 name: Graphic Design Pro
 slug: graphic-design-pro
 version: 2.0.0
-homepage: https://clawic.com/skills/graphic-design-pro
+homepage: https://clawhub.ai/ivangdavila/skills/graphic-design
 description: "Diseño UI/UX profesional inspirado en Claude Design: prototipos rápidos, sistemas de diseño, componentes, landing pages y pitch decks."
 changelog: "Actualizado con capacidades de Claude Design - Ahora soporta prototipado rápido, sistemas de diseño, componentes UI, y optimización de landing pages."
 metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/graphic-design-pro/"]}}

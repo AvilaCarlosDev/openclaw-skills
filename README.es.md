@@ -1,105 +1,129 @@
-# OpenClaw Skills — coleccion curada (en espanol)
+# OpenClaw Skills — colección curada (en español)
 
 > Skills para [OpenClaw](https://openclaw.ai) reunidas, probadas y organizadas en un solo sitio. [Read in English](README.md).
 
-**Este repositorio es una curaduria, no una autoria** para la mayoria de las skills. La mayoria fueron escritas por otras personas y publicadas en [ClawHub / clawic.com](https://clawic.com). Lo que aporta este repo es la seleccion, la prueba en uso real, la organizacion por categoria y esta documentacion en espanol. Cada skill conserva su frontmatter original con su `homepage` y su autoria.
+Este repositorio tiene **tres tipos de skills, y cada una está etiquetada como lo que realmente es**:
 
-Si una skill te resulta util, ve a su pagina original y apoya a quien la escribio.
+1. **Skills de la comunidad**: archivos publicados en [ClawHub](https://clawhub.ai) por otras personas, copiados aquí byte a byte. ClawHub publica todas sus skills bajo [MIT-0](https://github.com/openclaw/clawhub/blob/main/docs/skill-format.md#license), que permite usarlas, modificarlas y redistribuirlas, también con fines comerciales, sin exigir atribución. Igualmente se acreditan, con enlace a su autor.
+2. **Skills derivadas**: una skill de ClawHub que se modificó aquí. La modificación se indica.
+3. **Skills propias**: escritas para este repositorio. Algunas adaptan el *concepto* de una skill de [mattpocock/skills](https://github.com/mattpocock/skills) (MIT); los textos se reescribieron y tradujeron, no se copia ningún archivo, y cada una lo dice.
+
+De dónde sale cada skill está en [`procedencia.json`](procedencia.json), y la CI lo comprueba (ver [Procedencia y verificación](#procedencia-y-verificación)). Verificado el 2026-09-19.
+
+Si una skill te resulta útil, ve a la página de su autor y apóyalo.
 
 ---
 
-## Skills de la comunidad
+## Skills de la comunidad (copiadas sin cambios de ClawHub)
 
-Publicadas en ClawHub por sus respectivos autores. Aqui solo estan seleccionadas y documentadas.
+### Varios autores
 
-| Skill | Que hace | Fuente original |
-|---|---|---|
-| `arch-improver` | Detecta acoplamientos y violaciones de capas en el codebase | [Architecture Improver](https://clawic.com/skills/arch-improver) |
-| `chat-to-prd` | Convierte la conversacion actual en un PRD y lo abre como issue | [Chat to PRD](https://clawic.com/skills/chat-to-prd) |
-| `code-context` | Entiende codigo desconocido en el contexto del sistema completo | [Code Context](https://clawic.com/skills/code-context) |
-| `compressed-mode` | Modo de respuesta comprimido, ~75% menos tokens | [Compressed Mode](https://clawic.com/skills/compressed-mode) |
-| `content-marketing` | Calendarios editoriales, embudo y reutilizacion de contenido | [Content Marketing](https://clawic.com/skills/content-marketing) |
-| `cybersecurity` | Triage de seguridad, threat modeling e incident reporting | [Cybersecurity](https://clawic.com/skills/cybersecurity) |
-| `debug-diagnose` | Loop disciplinado: reproducir, minimizar, hipotetizar, verificar | [Debug Diagnose](https://clawic.com/skills/debug-diagnose) |
-| `git-guardrails` | Hooks que bloquean push --force, reset --hard y clean | [Git Guardrails](https://clawic.com/skills/git-guardrails) |
-| `graphic-design` | Prototipos, sistemas de diseno y trabajo UI/UX | [Graphic Design Pro](https://clawic.com/skills/graphic-design-pro) |
-| `grill-me` | Entrevista implacable sobre un plan hasta cerrar cada decision | [Grill Me](https://clawic.com/skills/grill-me) |
-| `grill-with-docs` | Igual que Grill Me, contrastando contra el modelo de dominio | [Grill With Docs](https://clawic.com/skills/grill-with-docs) |
-| `issue-triage` | Triage de issues con maquina de estados, labels y routing | [Issue Triage](https://clawic.com/skills/issue-triage) |
-| `plan-to-issues` | Parte un plan o PRD en issues independientes por vertical slice | [Plan to Issues](https://clawic.com/skills/plan-to-issues) |
-| `programming` | Skill general de desarrollo, debugging y code review | [Programming](https://clawic.com/skills/programming) |
-| `quick-prototype` | Prototipos desechables para explorar diseno | [Quick Prototype](https://clawic.com/skills/quick-prototype) |
-| `refero-styles` | Extrae colores, tipografia y spacing de un sitio web | [Refero Styles](https://clawic.com/skills/refero-styles) |
-| `seo` | Auditoria de sitio, redaccion y analisis de competencia | [SEO](https://clawic.com/skills/seo) |
-| `tdd-helper` | Ciclo red-green-refactor por vertical slice | [TDD Helper](https://clawic.com/skills/tdd-helper) |
-| `ai-meeting-notes` | Convierte notas de reunion en action items | [jeffjhunter.com](https://jeffjhunter.com) |
-| `meeting-notes` | Estructura notas de reunion | Publicada en ClawHub — autor no identificable, este slug lo comparten 3 autores distintos en ClawHub y no hay forma de confirmar de cual de los 3 viene esta copia |
-| `safe-web` | Navegacion web con proteccion contra prompt injection | [adamnaghs](https://clawhub.ai/adamnaghs/skills/safe-web) |
+| Skill | Qué hace | Autor | Original | Versión |
+|---|---|---|---|---|
+| `ai-meeting-notes` | Convierte notas de reunion en action items | [jeffjhunter](https://clawhub.ai/jeffjhunter) | [ai-meeting-notes](https://clawhub.ai/jeffjhunter/skills/ai-meeting-notes) | 1.0.3 |
+| `meeting-notes` | Estructura notas de reunión | [tinadu-ai](https://clawhub.ai/tinadu-ai) | [meeting-notes](https://clawhub.ai/tinadu-ai/skills/meeting-notes) | 1.0.1 |
+| `safe-web` | Navegación web con protección contra prompt injection | [adamnaghs](https://clawhub.ai/adamnaghs) | [safe-web](https://clawhub.ai/adamnaghs/skills/safe-web) | 1.0.8 |
 
 ### Skills de lenguajes e infraestructura, de [ivangdavila](https://clawhub.ai/ivangdavila)
 
-Nueve skills detalladas "que hacer cuando X se rompe" del mismo autor, agregadas porque coinciden con el stack de este repo (Next.js/TypeScript/React) y con el enfoque de evitar fallas reales y especificas en vez de tutoriales genericos.
-
-| Skill | Que hace | Fuente original |
-|---|---|---|
-| `typescript` | Errores de tipos, narrowing, generics, tsconfig, archivos de declaracion | [TypeScript](https://clawic.com/skills/typescript) |
-| `nextjs` | App Router, server components, caching, Server Actions, deploy | [NextJS](https://clawic.com/skills/nextjs) |
-| `react` | Hooks, estado, re-renders, hydration mismatches, testing | [React](https://clawic.com/skills/react) |
-| `sql` | Queries lentas, bugs de JOIN, migraciones, indices, diseno de schema | [SQL](https://clawic.com/skills/sql) |
-| `git` | Conflictos, rebases, historial perdido, hooks, worktrees | [Git](https://clawic.com/skills/git) |
-| `nginx` | Reverse proxy, terminacion SSL, 502/504, WebSockets a traves del proxy | [Nginx](https://clawic.com/skills/nginx) |
-| `devops` | Pipelines CI/CD, estrategia de rollout, on-call, SLOs, metricas DORA | [DevOps](https://clawic.com/skills/devops) |
-| `terraform` | HCL, fallos de plan/apply, cirugia de state, drift, pinning de providers | [Terraform](https://clawic.com/skills/terraform) |
-| `playwright` | Tests inestables, locators, traces, corridas en CI, control de navegador por MCP | [Playwright](https://clawic.com/skills/playwright) |
+| Skill | Qué hace | Autor | Original | Versión |
+|---|---|---|---|---|
+| `content-marketing` | Calendarios editoriales, embudo y reutilización de contenido | [ivangdavila](https://clawhub.ai/ivangdavila) | [content-marketing](https://clawhub.ai/ivangdavila/skills/content-marketing) | 1.0.0 |
+| `cybersecurity` | Triage de seguridad, threat modeling e incident reporting | [ivangdavila](https://clawhub.ai/ivangdavila) | [cybersecurity](https://clawhub.ai/ivangdavila/skills/cybersecurity) | 1.0.0 |
+| `devops` | Pipelines CI/CD, estrategia de rollout, on-call, SLOs, metricas DORA | [ivangdavila](https://clawhub.ai/ivangdavila) | [devops](https://clawhub.ai/ivangdavila/skills/devops) | 1.0.2 |
+| `git` | Conflictos, rebases, historial perdido, hooks, worktrees | [ivangdavila](https://clawhub.ai/ivangdavila) | [git](https://clawhub.ai/ivangdavila/skills/git) | 1.0.12 |
+| `nextjs` | App Router, server components, caching, Server Actions, deploy | [ivangdavila](https://clawhub.ai/ivangdavila) | [nextjs](https://clawhub.ai/ivangdavila/skills/nextjs) | 1.1.2 |
+| `nginx` | Reverse proxy, terminación SSL, 502/504, WebSockets a traves del proxy | [ivangdavila](https://clawhub.ai/ivangdavila) | [nginx](https://clawhub.ai/ivangdavila/skills/nginx) | 1.0.5 |
+| `playwright` | Tests inestables, locators, traces, corridas en CI, control de navegador por MCP | [ivangdavila](https://clawhub.ai/ivangdavila) | [playwright](https://clawhub.ai/ivangdavila/skills/playwright) | 1.0.4 |
+| `react` | Hooks, estado, re-renders, hydration mismatches, testing | [ivangdavila](https://clawhub.ai/ivangdavila) | [react](https://clawhub.ai/ivangdavila/skills/react) | 1.0.7 |
+| `seo` | Auditoría de sitio, redacción y análisis de competencia | [ivangdavila](https://clawhub.ai/ivangdavila) | [seo](https://clawhub.ai/ivangdavila/skills/seo) | 1.0.3 |
+| `sql` | Queries lentas, bugs de JOIN, migraciones, índices, diseño de schema | [ivangdavila](https://clawhub.ai/ivangdavila) | [sql](https://clawhub.ai/ivangdavila/skills/sql) | 1.0.4 |
+| `terraform` | HCL, fallos de plan/apply, cirugía de state, drift, pinning de providers | [ivangdavila](https://clawhub.ai/ivangdavila) | [terraform](https://clawhub.ai/ivangdavila/skills/terraform) | 1.0.4 |
+| `typescript` | Errores de tipos, narrowing, generics, tsconfig, archivos de declaracion | [ivangdavila](https://clawhub.ai/ivangdavila) | [typescript](https://clawhub.ai/ivangdavila/skills/typescript) | 1.0.5 |
 
 ---
 
-## Skills propias en espanol
+## Skills derivadas (modificadas aquí)
 
-Escritas originalmente en espanol por [Carlos Avila](https://github.com/AvilaCarlosDev) para este repositorio. No son traducciones de las skills de la tabla anterior; son contenido propio, incluso cuando cubren un tema parecido (por ejemplo `skills-es/landings/diseno-profesional` es una toma independiente sobre extraccion de estilos, escrita en paralelo a `refero-styles`).
+| Skill | Qué hace | Basada en | Qué cambió |
+|---|---|---|---|
+| `graphic-design` | Prototipos, sistemas de diseño y trabajo UI/UX | [ivangdavila/graphic-design@1.0.0](https://clawhub.ai/ivangdavila/skills/graphic-design) | Reescrita como v2.0.0 con las capacidades de Claude Design. |
+| `programming` | Skill general de desarrollo, debugging y code review | [leowing/programming@1.0.0](https://clawhub.ai/leowing/skills/programming) | `SKILL.md` reescrito en español; el resto de los archivos son los originales. |
 
-| Skill | Comando | Que hace |
+---
+
+## Skills propias
+
+Escritas para este repositorio por [Carlos Avila](https://github.com/AvilaCarlosDev), bajo MIT. **No** vienen de ClawHub. Cuando un concepto coincide con una skill de otro repositorio público, se acredita.
+
+| Skill | Qué hace | Concepto |
 |---|---|---|
-| [`skills-es/engineering/diagnostico`](skills-es/engineering/diagnostico/SKILL.md) | `/diagnostico` | Depurar bugs dificiles con proceso estructurado: reproducir, minimizar, hipotetizar, instrumentar, fix, regresion |
+| `arch-improver` | Detecta acoplamientos y violaciones de capas en el codebase | Concepto adaptado de [mattpocock/skills · improve-codebase-architecture](https://github.com/mattpocock/skills/tree/main/skills/engineering/improve-codebase-architecture) (MIT) |
+| `chat-to-prd` | Convierte la conversación actual en un PRD y lo abre como issue | Concepto adaptado de [mattpocock/skills · to-spec](https://github.com/mattpocock/skills/tree/main/skills/engineering/to-spec) (MIT) |
+| `code-context` | Entiende código desconocido en el contexto del sistema completo | — |
+| `compressed-mode` | Modo de respuesta comprimido, ~75% menos tokens | — |
+| `debug-diagnose` | Loop disciplinado: reproducir, minimizar, hipotetizar, verificar | Concepto adaptado de [mattpocock/skills · diagnosing-bugs](https://github.com/mattpocock/skills/tree/main/skills/engineering/diagnosing-bugs) (MIT) |
+| `git-guardrails` | Hooks que bloquean push --force, reset --hard y clean | Concepto adaptado de [mattpocock/skills · git-guardrails-claude-code](https://github.com/mattpocock/skills/tree/main/skills/misc/git-guardrails-claude-code) (MIT) |
+| `grill-me` | Entrevista implacable sobre un plan hasta cerrar cada decisión | Concepto adaptado de [mattpocock/skills · grill-me](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) (MIT) |
+| `grill-with-docs` | Igual que Grill Me, contrastando contra el modelo de dominio | Concepto adaptado de [mattpocock/skills · grill-with-docs](https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs) (MIT) |
+| `issue-triage` | Triage de issues con máquina de estados, labels y routing | Concepto adaptado de [mattpocock/skills · triage](https://github.com/mattpocock/skills/tree/main/skills/engineering/triage) (MIT) |
+| `plan-to-issues` | Parte un plan o PRD en issues independientes por vertical slice | Concepto adaptado de [mattpocock/skills · to-tickets](https://github.com/mattpocock/skills/tree/main/skills/engineering/to-tickets) (MIT) |
+| `quick-prototype` | Prototipos desechables para explorar diseño | Concepto adaptado de [mattpocock/skills · prototype](https://github.com/mattpocock/skills/tree/main/skills/engineering/prototype) (MIT) |
+| `refero-styles` | Extrae colores, tipografía y spacing de un sitio web | Idea inspirada en [Refero Styles](https://refero.design) |
+| `safe_fetch` | Descarga de páginas con protección contra prompt injection | — |
+| `safe_search` | Búsqueda web con protección contra prompt injection | — |
+| `tdd-helper` | Ciclo red-green-refactor por vertical slice | Concepto adaptado de [mattpocock/skills · tdd](https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd) (MIT) |
+
+### Skills propias en español
+
+| Skill | Comando | Qué hace |
+|---|---|---|
+| [`skills-es/engineering/diagnostico`](skills-es/engineering/diagnostico/SKILL.md) | `/diagnostico` | Depurar bugs difíciles con proceso estructurado: reproducir, minimizar, hipotetizar, instrumentar, fix, regresion |
 | [`skills-es/engineering/tdd`](skills-es/engineering/tdd/SKILL.md) | `/tdd` | Desarrollo guiado por tests, ciclo Red-Green-Refactor |
 | [`skills-es/github/contribucion`](skills-es/github/contribucion/SKILL.md) | `/contribucion` | Preparar contribuciones a proyectos open source: buscar issue, fix, tests, PR |
-| [`skills-es/landings/diseno-profesional`](skills-es/landings/diseno-profesional/SKILL.md) | `/diseno-profesional` | Aplicar principios de diseno de Refero.design a paginas y componentes |
+| [`skills-es/landings/diseno-profesional`](skills-es/landings/diseno-profesional/SKILL.md) | `/diseno-profesional` | Aplicar principios de diseño de Refero.design a páginas y componentes |
 | [`skills-es/ventas/pitch`](skills-es/ventas/pitch/SKILL.md) | `/pitch` | Generar emails de venta personalizados para landing pages, sin sonar a spam |
 
-Estas 5 son las unicas skills en espanol que existen hoy en este repositorio. (Una version anterior de este contenido vivia en un repo aparte, `openclaw-skills-es`, que prometia mas de una docena adicionales que nunca se escribieron — se elimino ese repo y se dejaron aqui solo las que son reales.)
+Estas 5 son las únicas skills en español que existen hoy en este repositorio. (Una versión anterior de este contenido vivía en un repo aparte, `openclaw-skills-es`, que prometía más de una docena adicionales que nunca se escribieron — se eliminó ese repo y se dejaron aquí solo las que son reales.)
+
 
 ---
 
-## Skills propias (sin idioma especifico)
-
-Escritas para este repositorio:
-
-| Skill | Que hace |
-|---|---|
-| `safe_search` | Busqueda web con proteccion contra prompt injection |
-| `safe_fetch` | Descarga de paginas con proteccion contra prompt injection |
-
----
-
-## Como usar una skill
+## Cómo usar una skill
 
 ```bash
-# desde ClawHub, que es la via recomendada y mantiene la skill actualizada
-clawhub install <nombre-del-skill>
+# desde ClawHub, lo recomendado para las skills de la comunidad, las mantiene al día
+clawhub install <nombre-de-la-skill>
 
-# o copiando el SKILL.md a tu workspace
-cp <nombre>/SKILL.md ~/.openclaw/workspace/skills/<nombre>/
-# las skills en espanol usan la misma ruta relativa: skills-es/<categoria>/<nombre>/SKILL.md
+# o copiando el SKILL.md (y el resto de la carpeta) a tu workspace
+cp -r <nombre> ~/.openclaw/workspace/skills/
+# Las skills en español usan la misma ruta relativa: skills-es/<categoría>/<nombre>/
 ```
 
-Las skills se activan solas cuando la tarea coincide con su descripcion, o las invocas con `/usa <nombre> <tarea>`.
+Las skills se activan solas cuando una tarea coincide con su descripción, o puedes invocarlas con `/use <nombre> <tarea>`.
+
+Algunas skills incluyen scripts (`safe-web`, `programming`). Léelos antes de ejecutarlos, como con cualquier código que no escribiste.
 
 ---
 
-## Licencia y creditos
+## Procedencia y verificación
 
-Cada skill de la seccion "comunidad" pertenece a quien la escribio y se rige por los terminos de su publicacion original en ClawHub. **Este repositorio no reclama autoria sobre ellas.**
+`procedencia.json` registra, para cada skill, su tipo, autor, versión, URL de origen y el SHA-256 de cada archivo tomado de un tercero.
 
-Las skills de `skills-es/` y la organizacion/documentacion del repo son de [Carlos Avila](https://github.com/AvilaCarlosDev), bajo MIT.
+```bash
+python3 scripts/procedencia.py comprobar   # sin red: registro, hashes, README y homepage coinciden
+python3 scripts/procedencia.py remoto      # con red: compara contra lo que ClawHub sirve hoy
+```
 
-Si eres autor de alguna skill incluida aqui y quieres que se retire o que cambie la forma en que se te acredita, [abre un issue](https://github.com/AvilaCarlosDev/openclaw-skills/issues) y se resuelve de inmediato.
+La primera comprobación corre en cada pull request; la segunda, una vez por semana, porque depende de un servicio externo. Cómo se estableció el origen: cada archivo se pidió a la API pública de ClawHub en la versión exacta y se comparó byte a byte. `_meta.json` y `.clawhub/` los genera el registro y se excluyen.
+
+---
+
+## Licencia y créditos
+
+- **Skills de la comunidad:** © sus autores, publicadas en ClawHub bajo MIT-0. Copiadas sin cambios. Este repositorio no reclama autoría sobre ellas.
+- **Skills derivadas:** los archivos originales conservan los términos de su autor (MIT-0); las modificaciones están bajo MIT.
+- **Skills propias, curaduría y documentación:** © Carlos Avila, MIT (ver [LICENSE](LICENSE)). Los avisos de terceros están en [NOTICE.md](NOTICE.md).
+- Desarrollado con el apoyo de Claude (Anthropic) como asistente de redacción y de verificación de fuentes; la selección y la revisión final son del autor.
+
+Si escribiste una skill incluida aquí y quieres que se quite o se acredite de otra forma, [abre un issue](https://github.com/AvilaCarlosDev/openclaw-skills/issues) y se resuelve de inmediato. Para reportar un problema de seguridad, ver [SECURITY.md](SECURITY.md).

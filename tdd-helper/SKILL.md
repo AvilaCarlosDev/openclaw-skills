@@ -2,7 +2,7 @@
 name: TDD Helper
 slug: tdd-helper
 version: 1.0.0
-homepage: https://clawic.com/skills/tdd-helper
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/tdd-helper
 description: "Test-driven development con loop red-green-refactor. Construye features o fixea bugs una vertical slice a la vez."
 changelog: "Skill inicial para TDD en OpenClaw."
 metadata: {"clawdbot":{"emoji":"🧪","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/tdd-helper/"]}}

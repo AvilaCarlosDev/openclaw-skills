@@ -2,7 +2,7 @@
 name: Refero Styles
 slug: refero-styles
 version: 1.0.0
-homepage: https://clawic.com/skills/refero-styles
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/refero-styles
 description: "Extrae y analiza estilos de diseño web: colores, tipografía, spacing, componentes y genera DESIGN.md para agentes."
 changelog: "Skill inicial para análisis de estilos de diseño web inspirado en Refero Styles."
 metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":[]},"os":["linux","darwin","win32"],"configPaths":["~/refero-styles/"]}}

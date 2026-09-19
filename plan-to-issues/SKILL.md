@@ -2,7 +2,7 @@
 name: Plan to Issues
 slug: plan-to-issues
 version: 1.0.0
-homepage: https://clawic.com/skills/plan-to-issues
+homepage: https://github.com/AvilaCarlosDev/openclaw-skills/tree/main/plan-to-issues
 description: "Convierte cualquier plan, spec o PRD en GitHub issues independientes usando vertical slices."
 changelog: "Skill inicial para descomposición de planes en issues ejecutables."
 metadata: {"clawdbot":{"emoji":"📦","requires":{"bins":["gh"]},"os":["linux","darwin","win32"],"configPaths":["~/plan-to-issues/"]}}

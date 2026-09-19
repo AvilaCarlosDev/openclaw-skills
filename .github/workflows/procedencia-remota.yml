@@ -1,0 +1,21 @@
+name: Provenance vs ClawHub
+
+# Compara las skills de la comunidad con lo que ClawHub sirve hoy. Depende de un servicio
+# externo, así que corre una vez por semana y a mano; no es un check obligatorio.
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  remoto:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Compare community skills with ClawHub
+        run: python3 scripts/procedencia.py remoto

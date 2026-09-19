@@ -1,5 +1,9 @@
 # Third-party notices / Avisos de terceros
 
+The [LICENSE](LICENSE) (MIT, © Carlos Avila) covers the original work in this repository: the skills marked "own" in the README, the curation, the documentation and the scripts. Community skills are © their authors.
+
+La [LICENSE](LICENSE) (MIT, © Carlos Avila) cubre el trabajo original de este repositorio: las skills marcadas como «propias» en el README, la curaduría, la documentación y los scripts. Las skills de la comunidad son © sus autores.
+
 ## Community skills (ClawHub, MIT-0)
 
 The skills marked "community" and "derived" in the README come from [ClawHub](https://clawhub.ai). ClawHub states that every published skill is licensed under `MIT-0`, which allows anyone to use, modify and redistribute it, including commercially, and does not require attribution ([source](https://github.com/openclaw/clawhub/blob/main/docs/skill-format.md#license)). They are credited anyway. Authors, versions and the SHA-256 of every file are recorded in [`procedencia.json`](procedencia.json).

@@ -11,6 +11,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 TIPOS = {"comunidad", "derivada", "propia"}
@@ -91,26 +92,27 @@ def comprobar(raiz):
     return errores
 
 
-def remoto(raiz, abrir=urllib.request.urlopen):
+def remoto(raiz, abrir=urllib.request.urlopen, hilos=8):
     """Compara los archivos de terceros con los publicados en ClawHub (necesita red)."""
     raiz = Path(raiz)
     registro = json.loads((raiz / "procedencia.json").read_text(encoding="utf-8"))
-    errores = []
-    for s in registro["skills"]:
-        if s["tipo"] != "comunidad":
-            continue
-        for rel, esperado in s["archivos"].items():
-            url = (f"{registro['registro']}/api/v1/skills/{s['slug']}/file?path={urllib.parse.quote(rel)}"
-                   f"&version={s['version']}&owner={s['autor']}")
-            try:
-                with abrir(urllib.request.Request(url, headers={"User-Agent": "openclaw-skills-procedencia"}), timeout=30) as r:
-                    cuerpo = r.read()
-            except Exception as e:  # noqa: BLE001 - cualquier fallo de red es un problema a informar
-                errores.append(f"{s['ruta']}/{rel}: no se pudo consultar ClawHub ({e})")
-                continue
-            if hashlib.sha256(cuerpo).hexdigest() != esperado:
-                errores.append(f"{s['ruta']}/{rel}: ya no coincide con ClawHub {s['autor']}/{s['slug']}@{s['version']}")
-    return errores
+    tareas = [(s, rel, esperado) for s in registro["skills"] if s["tipo"] == "comunidad" for rel, esperado in s["archivos"].items()]
+
+    def comprobar_uno(tarea):
+        s, rel, esperado = tarea
+        url = (f"{registro['registro']}/api/v1/skills/{s['slug']}/file?path={urllib.parse.quote(rel)}"
+               f"&version={s['version']}&owner={s['autor']}")
+        try:
+            with abrir(urllib.request.Request(url, headers={"User-Agent": "openclaw-skills-procedencia"}), timeout=30) as r:
+                cuerpo = r.read()
+        except Exception as e:  # noqa: BLE001 - cualquier fallo de red es un problema a informar
+            return f"{s['ruta']}/{rel}: no se pudo consultar ClawHub ({e})"
+        if hashlib.sha256(cuerpo).hexdigest() != esperado:
+            return f"{s['ruta']}/{rel}: ya no coincide con ClawHub {s['autor']}/{s['slug']}@{s['version']}"
+        return None
+
+    with ThreadPoolExecutor(max_workers=hilos) as pool:
+        return [e for e in pool.map(comprobar_uno, tareas) if e]
 
 
 def main(argv):
